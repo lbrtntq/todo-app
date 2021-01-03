@@ -54,7 +54,7 @@ export class App extends Component {
       <Router>
         <div className="container">
           <Header/>
-          <Route exact path="/">
+          <Route exact path="/todo-app">
             <AddTodo 
               addTodo={this.addTodo} 
             />

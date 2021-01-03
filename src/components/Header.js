@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <header style={headerStyle}>
                 <h1>SIMPLE REACT TODO LIST</h1>
-                <Link style={linkStyle} to="/">Home</Link> | <Link style={linkStyle} to="/about">About</Link>
+                <Link style={linkStyle} to="/todo-app">Home</Link> | <Link style={linkStyle} to="/about">About</Link>
             </header>
         </div>
     )
